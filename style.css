@@ -153,6 +153,7 @@ a:active {
 
 .like-button{
     text-transform: uppercase;
+    cursor: pointer;
     padding: 10px;
     position: absolute;
     bottom: 50px;
