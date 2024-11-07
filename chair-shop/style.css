@@ -6,7 +6,7 @@ FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
 
-/* MAIN COLOR: #14532d */
+/* MAIN COLOR: #16a34a */
 
 * {
     margin: 0;
@@ -20,7 +20,7 @@ FONT SIZE SYSTEM (px)
 body {
     font-family: "Inter", sans-serif;
     color: #1f2937;
-    border-bottom: solid 8px #14532d;
+    border-bottom: solid 8px #16a34a;
 }
 
 .container {
@@ -30,7 +30,7 @@ body {
 
 header,
 section {
-    margin-bottom: 48px;
+    margin-bottom: 80px;
 }
 
 h2 {
@@ -47,7 +47,7 @@ h2 {
 
 .btn:link,
 .btn:visited {
-    background-color: #14532d;
+    background-color:#16a34a;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -58,7 +58,7 @@ h2 {
 
 .btn:hover,
 .btn:active {
-    background-color: #15803d;
+    background-color: #22c55e;
 }
 
 /* ------------------------ */
@@ -70,7 +70,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 80px;
-    margin-top: 44px;
+    margin-top: 64px;
 }
 
 .header-text-box {
@@ -108,7 +108,8 @@ img {
 .features-icon {
     height: 32px;
     width: 32px;
-    stroke: #14532d;
+    stroke: #16a34a;
+    margin-bottom: 24px;
 }
 
 .features-title {
@@ -123,7 +124,7 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
-    background-color: #14532d;
+    background-color: #16a34a;
     color: #fff;
     padding: 18px;
     border-radius: 12px;
@@ -144,11 +145,16 @@ img {
     margin-bottom: 24px;
     font-size: 18px;
     line-height: 1.6;
+    color: #dcfce7;
+}
+
+.testimonial-author{
+    color: #f0fdf4;
 }
 
 /* CHAIRS */
 .chair-box {
-    padding: 24px;
+    padding: 32px;
 }
 
 .chair img{
@@ -170,7 +176,7 @@ h3 {
     display: flex;
     align-items: center;
     gap: 12px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .chair-details li:last-child {
@@ -180,13 +186,14 @@ h3 {
 .chair-icon {
     width: 24px;
     height: 24px;
-    stroke: #14532d;
+    stroke: #16a34a;
 }
 
 .chair-price {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+    margin-top: 48px;
 }
 
 .btn--small {
