@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+    font-family: "Inter", sans-serif;
+    color: #1f2937;
+}
+
+table{
+    margin: 100px auto;
+    width: 800px;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    
+
+}
+
+th, td{
+    padding: 16px 22px;
+    text-align: left;
+}
+
+thead tr{
+    background-color: #16a34a;
+    color: #fff;
+}
+
+tbody tr:nth-child(even){
+    background-color: #e5e7eb;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #f3f4f6;
+}
